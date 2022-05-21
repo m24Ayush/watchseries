@@ -29,27 +29,17 @@ body {
     letter-spacing: 4px;
 }
 
-.container-category {
-    margin: 30px 0px;
+.search-bar {
     text-align: center;
+    margin: 20px 0px;
 }
 
-.container-category a {
-    text-decoration: none ;
-}
-
-.button {
-    padding: 5px 20px;
-    margin: 5px;
-    font-size: 27px;
-    font-weight: 600;
-    font-family: 'Bubblegum Sans', cursive;
-    background-color: rgb(15, 15, 15);
-    border: none;
-    outline: none;
-    color: red;
-    letter-spacing: 3px;
-    border-radius: 5px;
+#input {
+    font-size: 20px;
+    padding: 8px 0px;
+    width: 300px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .movie-list-container {
@@ -76,6 +66,7 @@ body {
 .movie-list-item a {
     text-decoration: none;
 }
+
 .movie-list-item a h2 {
     letter-spacing: 3px;
     /* line-height: 20px */
@@ -98,26 +89,42 @@ body {
 }
 
 @media only screen and (max-width:400px) {
-    .movie-list{
+    .movie-list {
         grid-template-columns: repeat(auto-fit, 145px);
     }
-    .movie-list-item{
+
+    .movie-list-item {
         width: 145px;
     }
-    .movie-list-item-img{
+
+    .movie-list-item-img {
         width: 145px;
         height: 270px;
     }
 }
-@media only screen and (max-width:325px) and (min-width:275px) {
-    .movie-list{
+
+@media only screen and (max-width:325px)  {
+    .movie-list {
         grid-template-columns: repeat(auto-fit, 120px);
     }
-    .movie-list-item{
+
+    .movie-list-item {
         width: 120px;
     }
-    .movie-list-item-img{
+
+    .movie-list-item-img {
         width: 120px;
         height: 240px;
     }
+
+    #input {
+        padding: 8px 0px;
+        width: 200px;
+    }
 }
+@media only screen and (max-width:215px){
+    #input {
+        padding: 8px 0px;
+        width: 170px;
+    }
+}  

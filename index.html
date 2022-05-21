@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>WatchListz</title>
 </head>
 
@@ -15,14 +16,10 @@
     </div>
 
     <div class="container">
-        <div class="container-category">
-            <a href="index.html">
-                <button class="button">Series</button>
-            </a>
-            <a href="movie.html">
-                <button class="button">Movies</button>
-            </a>
-        </div> 
+        <div class="search-bar">
+            <input type="text" id="input" placeholder="Search Series" onkeyup="searchquery()">
+        </div>
+
         <hr class="line">
         <!-- ################################################# -->
         <div class="movie-list-container">
@@ -55,13 +52,20 @@
                         <h2 class="movie-list-item-title">Hellbound Season1</h2>
                     </a>
                 </div>
-                <!-- ---------Vikings---------- -->
+                <!-- ---------Halo---------- -->
                 <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="img/halo.jpg">
+                    <a href="/series/halo.html">
+                        <h2 class="movie-list-item-title">Halo Season1</h2>
+                    </a>
+                </div>
+                <!-- ---------Vikings---------- -->
+                <!-- <div class="movie-list-item">
                     <img class="movie-list-item-img" src="img/vikings.jpg">
                     <a href="/series/vikings.html">
                         <h2 class="movie-list-item-title">Vikings Season(1-6)</h2>
                     </a>
-                </div>
+                </div> -->
                 <!-- ---------Lupin---------- -->
                 <div class="movie-list-item">
                     <img class="movie-list-item-img" src="img/lupin.jpg">
@@ -102,6 +106,13 @@
                     <img class="movie-list-item-img" src="img/vikings-valhalla.jpg">
                     <a href="/series/vikings-valhalla.html">
                         <h2 class="movie-list-item-title">Vikings Valhalla Season1</h2>
+                    </a>
+                </div>
+                <!-- ---------Lock and Key---------- -->
+                <div class="movie-list-item">
+                    <img class="movie-list-item-img" src="img/lock-and-key.jpg">
+                    <a href="/series/lock-and-key.html">
+                        <h2 class="movie-list-item-title">Lock And Key Season(1-2)</h2>
                     </a>
                 </div>
                 <!-- ------------------- -->
