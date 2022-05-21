@@ -43,7 +43,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Bubblegum Sans', cursive;
-    background-color: #fff;
+    background-color: white;
     border: none;
     outline: none;
     color: red;
@@ -79,7 +79,6 @@ body {
 }
 
 .movie-list-item-img {
-    border-top: 10px;
     width: 180px;
     height: 300px;
     object-fit: cover;
@@ -93,4 +92,29 @@ body {
     font-family: 'Bubblegum Sans', cursive;
     font-size: 20px;
     font-weight: 100;
+}
+
+@media only screen and (max-width:400px) {
+    .movie-list{
+        grid-template-columns: repeat(auto-fit, 145px);
+    }
+    .movie-list-item{
+        width: 145px;
+    }
+    .movie-list-item-img{
+        width: 145px;
+        height: 270px;
+    }
+}
+@media only screen and (max-width:325px) and (min-width:275px) {
+    .movie-list{
+        grid-template-columns: repeat(auto-fit, 120px);
+    }
+    .movie-list-item{
+        width: 120px;
+    }
+    .movie-list-item-img{
+        width: 120px;
+        height: 240px;
+    }
 }
