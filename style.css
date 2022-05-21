@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Ubuntu&display=swap');
+
+/* font-family: 'Bubblegum Sans', cursive;
+font-family: 'Ubuntu', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #151515;
+}
+
+.line {
+    border: 1px solid gray;
+    margin: 20px 0px;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    color: red;
+}
+
+.header h2 {
+    padding: 10px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.container-category {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.container-category a {
+    text-decoration: none ;
+}
+
+.button {
+    padding: 5px 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Bubblegum Sans', cursive;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: red;
+}
+
+.movie-list-container {
+    margin: 10px;
+}
+
+.movie-list {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 180px);
+    column-gap: 1rem;
+    justify-content: center;
+}
+
+.movie-list-item {
+    width: 180px;
+    /* height: 430px; */
+    margin-bottom: 10px;
+    border: 2px solid gray;
+}
+
+.movie-list-item a {
+    text-decoration: none;
+}
+.movie-list-item a h2 {
+    letter-spacing: 3px;
+    /* line-height: 20px */
+}
+
+.movie-list-item-img {
+    border-top: 10px;
+    width: 180px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.movie-list-item-title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: red;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 20px;
+    font-weight: 100;
+}
