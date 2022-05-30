@@ -50,7 +50,7 @@ body {
 }
 /* change placeholder color */
 ::-webkit-input-placeholder{
-    color: white;
+    color: gray;
 }
 #button{
     padding: 8px 10px;
