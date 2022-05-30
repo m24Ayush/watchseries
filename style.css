@@ -29,6 +29,10 @@ body {
     letter-spacing: 4px;
 }
 
+.container{
+    text-align: center;
+}
+
 .search-bar {
     text-align: center;
     margin: 20px 0px;
@@ -37,9 +41,29 @@ body {
 #input {
     font-size: 20px;
     padding: 8px 0px;
-    width: 300px;
+    width: 300px; 
     font-weight: lighter;
     text-align: center;
+    outline: none;
+    border: none;
+    /* background-color: white; */
+}
+/* change placeholder color */
+::-webkit-input-placeholder{
+    color: white;
+}
+#button{
+    padding: 8px 10px;
+    background-color:red;
+    outline: none;
+    border: none;
+}
+#button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 .movie-list-container {
@@ -88,7 +112,7 @@ body {
     font-weight: 100;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:399px) {
     .movie-list {
         grid-template-columns: repeat(auto-fit, 145px);
     }
