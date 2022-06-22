@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.sub-page {
+    min-height: 90vh;
+    width: 60vw;
+    background-color: #151515;
+}
+
+.line {
+    border: 1px solid gray;
+    margin: 20px 0px;
+}
+
+.series-title {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-family: 'Bubblegum Sans', cursive;
+    letter-spacing: 2px;
+}
+
+.season {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bubblegum Sans', cursive;
+    margin: 10px 0;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: rgb(207, 205, 205);
+}
+
+.button a {
+    text-decoration: none;
+    font-family: 'Bubblegum Sans', cursive;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button a:visited {
+    color: gray;
+}
+
+
+@media (max-width:900px) {
+    .sub-page {
+        width: 75vw;
+    }
+}
+
+@media (max-width:500px) {
+    .sub-page {
+        min-height: 100vh;
+        width: 100vw;
+    }
+
+}
