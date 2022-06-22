@@ -3,7 +3,7 @@
 fetch("series.json")
 .then(response => response.json())
 .then(data => {
-    console.log(data);
+    // console.log(data);
     
     const list = document.querySelector('.list');
     // console.log(list);
