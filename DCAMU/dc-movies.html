@@ -20,23 +20,25 @@
         <div class="search-bar">
             <input type="text" id="input" placeholder="Search Movies" onkeyup="searchquery()">
         </div>
-        <button id="button"><a href="/series/series.html">Series</a></button>
-        <button id="button"><a href="/movies/movies.html">Movies</a></button>
-        <button id="button"><a href="/ben10/ben10.html">Ben10</a></button>
+        
+        <button class="button" onclick="location.href='/series/series.html'">Series</button>
+        <button class="button" onclick="location.href='/movies/movies.html'">Movies</button>
+        <button class="button" onclick="location.href='/ben10/ben10.html'">Ben10</button>
 
         <hr class="line">
 
         <div class="list-container">
             <div class="list">
-                <template> <!-- it will not display -->
+                <template>
+                    <!-- it will not display -->
                     <!-- ----------The Batman--------- -->
-                <div class="list-item">
-                    <a href="#">
-                        <img class="list-item-img" src="mimg/batman.jpg">
-                        <h2 class="list-item-title">The Batman</h2>
-                    </a>
-                </div>
-                <!-- ------------------ -->
+                    <div class="list-item">
+                        <a href="#">
+                            <img class="list-item-img" src="mimg/batman.jpg">
+                            <h2 class="list-item-title">The Batman</h2>
+                        </a>
+                    </div>
+                    <!-- ------------------ -->
                 </template>
                 <!-- all movies display here -->
             </div>
@@ -46,9 +48,9 @@
     <div class="footer">
         <p>Created by Ayush Mishra</p>
     </div>
-    
-<script src="dcamu.js"></script>
-<script src="/search.js"></script>
+
+    <script src="dcamu.js"></script>
+    <script src="/search.js"></script>
 </body>
 
 </html>

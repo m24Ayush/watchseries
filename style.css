@@ -34,6 +34,7 @@ body {
 
 .container{
     text-align: center;
+    min-height: 100vh;
 }
 
 .search-bar {
@@ -56,22 +57,23 @@ body {
 ::-webkit-input-placeholder{
     color: gray;
 }
-#button{
+.button{
     padding: 5px 10px;
     background-color:red;
     outline: none;
     border: none;
     margin: 2px 5px;
     border-radius: 15px;
-}
-#button a{
-    text-decoration: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
     font-family: 'Bubblegum Sans', cursive;
     letter-spacing: 2px;
 }
+
+/* .button a{
+    text-decoration: none;
+} */
 
 .list-container {
     margin: 10px;
@@ -133,20 +135,20 @@ body {
 
 @media only screen and (max-width:399px) {
     .list {
-        grid-template-columns: repeat(auto-fit, 145px);
+        grid-template-columns: repeat(auto-fit, 150px);
     }
 
     .list-item {
-        width: 145px;
+        width: 150px;
     }
 
     .list-item-img {
-        width: 145px;
-        height: 270px;
+        width: 150px;
+        height: 240px;
     }
 }
 
-@media only screen and (max-width:325px)  {
+@media only screen and (max-width:335px)  {
     .list {
         grid-template-columns: repeat(auto-fit, 120px);
     }
@@ -157,7 +159,7 @@ body {
 
     .list-item-img {
         width: 120px;
-        height: 240px;
+        height: 190px;
     }
 
     #input {
@@ -165,7 +167,19 @@ body {
         width: 200px;
     }
 }
-@media only screen and (max-width:215px){
+@media only screen and (max-width:275px){
+    .list {
+        grid-template-columns: repeat(auto-fit, 160px);
+    }
+
+    .list-item {
+        width: 160px;
+    }
+
+    .list-item-img {
+        width: 160px;
+        height: 250px;
+    }
     #input {
         padding: 8px 0px;
         width: 170px;

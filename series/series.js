@@ -20,6 +20,7 @@ fetch("series.json")
             console.log(element.subtitle);
             localStorage.setItem('title', element.subtitle);
             localStorage.setItem('genre', element.genre);
+            document.getElementById('input').value = "";
         }
         
         const listItem = `

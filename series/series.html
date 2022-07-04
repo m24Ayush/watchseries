@@ -20,15 +20,19 @@
         <div class="search-bar">
             <input type="text" id="input" placeholder="Search Series" onkeyup="searchquery()">
         </div>
-        <button id="button"><a href="/movies/movies.html">Movies</a></button>
-        <button id="button"><a href="/ben10//ben10.html">Ben10</a></button>
-        <button id="button"><a href="/DCAMU/dc-movies.html">DCAMU</a></button>
+        
+        <button class="button" onclick="location.href='/movies/movies.html'">Movies</button>
+        <button class="button" onclick="location.href='/ben10/ben10.html'">Ben10</button>
+        <button class="button" onclick="location.href='/DCAMU/dc-movies.html'">DCAMU</button>
+        <button class="button" id="hiso" onclick="location.href='/DCAMU/dc-movies.html'"
+            style="display: none;">Ayush</button>
 
         <hr class="line">
         <!-- ################################################# -->
         <div class="list-container">
             <div class="list">
-                <template> <!-- it will not display -->
+                <template>
+                    <!-- it will not display -->
                     <!-- ---------Lincoln Lawyer---------- -->
                     <div class="list-item">
                         <a href="#">

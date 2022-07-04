@@ -21,7 +21,6 @@
         width: 350px;
         height: 270px;
     }
-
 </style>
 
 <body>
@@ -35,9 +34,10 @@
         <div class="search-bar">
             <input type="text" id="input" placeholder="Search Series" onkeyup="searchquery()">
         </div>
-        <button id="button"><a href="/series/series.html">Series</a></button>
-        <button id="button"><a href="/movies/movies.html">Movies</a></button>
-        <button id="button"><a href="/DCAMU/dc-movies.html">DCAMU</a></button>
+        
+        <button class="button" onclick="location.href='/series/series.html'">Series</button>
+        <button class="button" onclick="location.href='/movies/movies.html'">Movies</button>
+        <button class="button" onclick="location.href='/DCAMU/dc-movies.html'">DCAMU</button>
 
         <hr class="line">
         <!-- ################################################# -->
@@ -79,8 +79,8 @@
     <div class="footer">
         <p>Created by Ayush Mishra</p>
     </div>
-    
-<script src="/search.js"></script>
+
+    <script src="/search.js"></script>
 </body>
 
 </html>
