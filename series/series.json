@@ -264,11 +264,71 @@
             ["eico7llrkbbc","gqg6ai5rzy45","vhmjoav8mvpi","ctojpp8rqfm6","wkpjjebbzxln","fgbq0149togc"]
         ]
     },
-    {"title":"You Don't Know Me"},
-    {"title":"The Men Who Fell To Earth"},
-    {"title":"The Longest Night"},
-    {"title":"Love,Death and Robot"},
-    {"title":"Resident Evil"},
-    {"title":"Altered Carbon"},
-    {"title":"Another Life"}
+    {    
+        "title":"You Don't Know Me Season1",
+         "subtitle": "You Don't Know Me",
+         "genre": "Crime, Drama",
+         "image": "https://i.ibb.co/VVN7B31/you-don-t-know-me.jpg",
+         "season": [
+             ["","","",""]
+         ]
+    },
+    {    
+        "title":"The Man Who Fell To Earth Season1",
+         "subtitle": "The Man Who Fell To Earth",
+         "genre": "Sci-Fi",
+         "image": "https://i.ibb.co/VpK3KbL/men-fell-to-earth.jpg",
+         "season": [
+             ["","","","","","","","","",""]
+         ]
+    },
+    {    
+        "title":"The Longest Night Season1",
+         "subtitle": "The Longest Night",
+         "genre": "Action, Crime, Drama",
+         "image": "https://i.ibb.co/wLGNNxh/longest-night.jpg",
+         "season": [
+             ["","","","","",""]
+         ]
+    },
+    {    
+        "title":"Love,Death and Robot Season(1-3)",
+         "subtitle": "Love,Death and Robot",
+         "genre": "Animation, Short, Action",
+         "image": "https://i.ibb.co/Q6XdH1s/love-death-robot.jpg",
+         "season": [
+             ["","","","","","","","","","","","","","","","","",""],
+             ["","","","","","","",""],
+             ["","","","","","","","",""]
+         ]
+    },
+    {    
+        "title":"Resident Evil Season1",
+         "subtitle": "Resident Evil",
+         "genre": "Action, Horror, Sci-Fi",
+         "image": "https://i.ibb.co/0qy01FW/resident-evil.jpg",
+         "season": [
+             ["","","","","","","",""]
+         ]
+    },
+    {    
+        "title":"Altered Carbon Season(1-2)",
+         "subtitle": "Altered Carbon",
+         "genre": "Action, Drama, Sci-Fi",
+         "image": "https://i.ibb.co/r4xZbF1/altered-carbon.jpg",
+         "season": [
+             ["","","","","","","","","",""],
+             ["","","","","","","",""]
+         ]
+    },
+    {    
+        "title":"Another Life Season(1-2)",
+         "subtitle": "Another Life",
+         "genre": "Adventure, Drama, Mystery",
+         "image": "https://i.ibb.co/DbgtMf7/another-life.jpg",
+         "season": [
+             ["","","","","","","","","",""],
+             ["","","","","","","","","",""]
+         ]
+    }
 ]
